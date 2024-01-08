@@ -18,7 +18,7 @@ int main(void)
 			putchar('0' + j);
 			{
 
-					if (i != 8 || j != 9)
+					if (!(i == 8 && j == 9) && (i < 8))
 				{
 					putchar(',');
 					putchar(' ');
@@ -27,10 +27,9 @@ int main(void)
 			}
 
 		}
+	}
 
 	putchar('\n');
-
-	}
 
 return (0);
 }
