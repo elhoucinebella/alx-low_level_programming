@@ -1,5 +1,4 @@
 #include "main.h"
-	
 /**
  *main - Entry Point
  *Descreption: a program that prints alphabets 10
@@ -13,7 +12,7 @@ void print_alphabet(void)
 	char j = 'a';
 
 	for (j = 'a' ; j <= 'z'; j++)
-	
+
 		_putchar(j);
 	_putchar('\n');
 }
