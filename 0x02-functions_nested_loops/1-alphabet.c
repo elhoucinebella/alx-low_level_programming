@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *main - Entry Point
- *Descreption: a program that prints alphabets 10
- *times.
- *Return: 0 always(success)
+ * print_alphabet - function that prinrs lowercase alphabets.
+ *
+ * Return: 0
  */
 
 void print_alphabet(void)
