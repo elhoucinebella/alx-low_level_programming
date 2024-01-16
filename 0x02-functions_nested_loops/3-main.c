@@ -13,7 +13,7 @@ int main(void)
 	_putchar(r + '0');
 	r = _islower('O');
 	_putchar(r + '0');
-	r = _islower('L');
+	r = _islower('I');
 	_putchar(r + '0');
 	_putchar('\n');
 	return (0);
