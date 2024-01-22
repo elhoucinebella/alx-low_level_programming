@@ -15,9 +15,12 @@ void times_table(void)
 
 		{
 			result = a * i;
-			printf("%d, ", result);
+			printf("%d", result);
+			printf(", ");
+			printf(" ");
 		}
 		printf("\n");
+
 	}
 	printf("\n");
 }
