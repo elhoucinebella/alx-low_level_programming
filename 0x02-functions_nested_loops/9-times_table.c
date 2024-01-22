@@ -9,9 +9,9 @@ void times_table(void)
 {
 	int a, i, result;
 
-	for (a = 0; a < 10; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (i = 0; i < 10; i++)
+		for (i = 0; i <= 9; i++)
 
 		{
 			result = a * i;
@@ -19,8 +19,7 @@ void times_table(void)
 			printf(", ");
 			printf(" ");
 		}
-		printf("\n");
-
+			printf("\n");
 	}
 	printf("\n");
 }
