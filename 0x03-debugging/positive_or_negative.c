@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * positive_or_negative - prints if integer is positive or negative
  * @i: the value to be checked
@@ -13,6 +14,6 @@ void positive_or_negative(int i)
 	else
 		printf("%d is zero\n", i);
 
-	return;
+	return (void);
 }
 
