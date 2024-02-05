@@ -1,13 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
- /**
-  * main
-  *Description: a program that prints day of the yeae, and how
-  *many days left in the year.
-  *
-  *Return: 0
-  */
+/**
+ * main - takes a date and prints how many days are left in the year, taking
+ * leap years into account
+ * Return: 0
+ **/
+
 int main(void)
 {
 	int month;
@@ -18,7 +17,7 @@ int main(void)
 	day = 29;
 	year = 2000;
 
-	printf("Date: %2d/%2d/%4d\n", month, day, year);
+	printf("Date: %02d/%2d/%4d\n", month, day, year);
 
 	day = convert_day(month, day);
 
