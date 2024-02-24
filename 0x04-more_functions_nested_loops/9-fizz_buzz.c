@@ -1,4 +1,12 @@
 #include <stdio.h>
+/**
+ * main - FizzBuzz - prints numbers from 0 to 100
+ *
+ * Descreption: Fizz for multiples of 3 and buzz for multilples
+ * of 5
+ *
+ * Return: (0)
+ */
 
 int main(void)
 {
