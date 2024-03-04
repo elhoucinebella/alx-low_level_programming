@@ -2,9 +2,10 @@
 #include<stdio.h>
 
 /**
- * strlen - returns the lengh of the string
+ * _strlen - returns the lengh of the string
  *
- * @s: the string concerned
+ * @s: the string whose value is to be printed
+ *
  * Return: nothing
  */
 
@@ -12,7 +13,7 @@ int _strlen(char *s)
 {
 	int lenght = 0;
 
-	while(*s++)
+	while (*s++)
 	lenght++;
 	return (lenght);
 }
