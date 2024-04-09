@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * puts2 -  prints every other character of a string
  *
@@ -7,17 +8,15 @@
  *
  *Return:
  */
-void puts2(char *str)
+
+void puts2(char *str) 
 {
-	int index = 0;
+	int i = 0;
 
-	if (str == NULL)
-		return;
-
-	while (str[index] != '\0' && str[index + 1] != '\0')
+	while (str[i] != '\0') 
 	{
-		putchar(str[index]);
-		index += 2;
+	putchar(str[i]);
+	i += 2;
 	}
 	putchar('\n');
 }
