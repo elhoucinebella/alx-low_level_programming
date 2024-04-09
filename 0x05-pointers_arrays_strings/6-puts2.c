@@ -9,12 +9,12 @@
  *Return:
  */
 
-void puts2(char *str) 
+void puts2(char *str)
 {
 	    
 	int i = 0;
 
-	while (str[i] != '\0') 
+	while (str[i] != '\0')
 	{
 		putchar(str[i]);
 
@@ -22,8 +22,7 @@ void puts2(char *str)
 		i += 2;
 
 		else
-			break;	
+			break;
 	}
 		putchar('\n');
 }
-
